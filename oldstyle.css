@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+#gradient-canvas {
+	--gradient-color-1: #6ec3f4;
+	--gradient-color-2: #3a3aff;
+	--gradient-color-3: #ff61ab;
+	--gradient-color-4: #e63946;
+}
+
+.main-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	position: fixed;
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 1rem;
+}
